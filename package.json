@@ -1,0 +1,31 @@
+{
+  "name": "assemble-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect app.js",
+    "test": "mocha ./tests -name '*.spec.js' -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YoonSeongKyeong/Assemble-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YoonSeongKyeong/Assemble-server/issues"
+  },
+  "homepage": "https://github.com/YoonSeongKyeong/Assemble-server#readme",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase-admin": "^8.9.0",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^7.0.0",
+    "nodemon": "^2.0.2",
+    "socket.io": "^2.3.0"
+  }
+}
